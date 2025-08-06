@@ -30,8 +30,8 @@ While highly optimized, production-ready models like those from Helsinki-NLP off
 
 The complete source code for this project is available in the Jupyter notebooks, organized by function:
 - **`model.ipynb`**: Contains the core model architecture, the two-stage training process (pre-training and fine-tuning), and inference examples.
-- **`tokenizer_training.ipynb`**: Details the process of training the custom `Unigram` tokenizer.
-- **`data_generation.ipynb`**: Shows the pipeline for generating the synthetic parallel dataset using an external LLM.
+- **`tokenizer.ipynb`**: Details the process of training the custom `Unigram` tokenizer.
+- **`dataset2.ipynb`**: Shows the pipeline for generating the synthetic parallel dataset using an external LLM.
 
 The code is structured to be clear and readable, allowing for easy reproduction of the results or for use as a foundation for your own experiments.
 
