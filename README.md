@@ -19,7 +19,7 @@ While highly optimized, production-ready models like those from Helsinki-NLP off
   - **Synthetic Data Generation:** Created a parallel corpus of ~80,000 sentence pairs by prompting the Gemini API, demonstrating a practical approach to overcome data scarcity.
   - **Custom Tokenizer Training:** Trained a `Unigram` tokenizer specifically for the German-English domain of the project.
 - **Advanced Training Strategy:**
-  1.  **Denoising Pre-training:** Employed a T5-style span corruption objective on monolingual data to teach the model robust language representations.
+  1.  **Denoising Pre-training:** Employed a BART-style span corruption objective on monolingual data to teach the model robust language representations.
   2.  **Translation Fine-tuning:** Adapted the pre-trained model for the specific downstream task of machine translation.
 - **Tooling & Optimization:**
   - Utilized `torch.compile` and `bfloat16` for efficient, modern PyTorch training.
